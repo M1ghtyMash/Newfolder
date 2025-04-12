@@ -12,7 +12,7 @@ public class DBTestServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
 
-        String url = "jdbc:mysql://localhost:3306/classproject";
+        String url = "jdbc:mysql://localhost:3306/studentmanagement";
         String username = "root";
         String password = "";  // Change if you set a password in XAMPP
 

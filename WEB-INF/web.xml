@@ -14,4 +14,14 @@
         <url-pattern>/HelloServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>DBTestServlet</servlet-name>
+        <servlet-class>servlets.DBTestServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DBTestServlet</servlet-name>
+        <url-pattern>/DBTestServlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>
